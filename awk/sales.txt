@@ -1,0 +1,10 @@
+Stanley 20000
+Jim 3000
+Rachel 12000
+Nathan 200
+Andy 5600
+Dwight 7890
+Jim 4000
+Nathan 560000
+Pam 9545
+Rachel 45000
