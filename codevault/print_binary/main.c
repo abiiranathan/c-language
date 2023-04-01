@@ -20,7 +20,6 @@ int main(int argc, char const *argv[]) {
 
             printf("%hhd", bit);
         }
-
         printf(" ");
     }
 

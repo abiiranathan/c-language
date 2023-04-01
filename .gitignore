@@ -2,4 +2,5 @@ a.out
 *.dat
 *.bin
 *.pdf
+*.o
 __pycache__
