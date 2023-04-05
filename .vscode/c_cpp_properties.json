@@ -2,12 +2,18 @@
   "configurations": [
     {
       "name": "Linux",
-      "includePath": ["${workspaceFolder}/**", "/usr/include/python3.10"],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include/python3.10",
+        "/usr/include/glib-2.0", // glib-object.h, glib.h, gobject
+        "/usr/lib/x86_64-linux-gnu/glib-2.0/include", // glibconfig.h
+        "/usr/include/cairo/" //cairo.h
+      ],
       "defines": [],
       "compilerPath": "/usr/bin/clang",
       "cStandard": "c17",
       "cppStandard": "c++14",
-      "intelliSenseMode": "linux-clang-x64",
+      "intelliSenseMode": "linux-gcc-x64",
       "configurationProvider": "ms-vscode.makefile-tools"
     }
   ],
